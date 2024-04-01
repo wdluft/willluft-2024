@@ -5,10 +5,18 @@ import NavLink from './NavLink';
 function Nav() {
   return (
     <NavBar>
-      <NavLink url='#'>home</NavLink>
-      <NavLink url='#'>about</NavLink>
-      <NavLink url='#'>leather</NavLink>
-      <NavLink url='#'>work</NavLink>
+      <NavLink url='#' isCurrentPage={true}>
+        home
+      </NavLink>
+      <NavLink url='#' isCurrentPage={false}>
+        about
+      </NavLink>
+      <NavLink url='#' isCurrentPage={false}>
+        leather
+      </NavLink>
+      <NavLink url='#' isCurrentPage={false}>
+        work
+      </NavLink>
     </NavBar>
   );
 }
