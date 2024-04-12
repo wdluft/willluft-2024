@@ -84,16 +84,22 @@ h6 {
 /* END CSS RESET */
 
 :root {
-  --primary-color: var(--cyan-6);
+  --primary-color: var(--cyan-3);
   --highlight-color: var(--yellow-4);
+  --highlight-dark-color: var(--yellow-6);
   --background-color: var(--gray-12);
-  --text-color: var(--gray-0);
+  --light-text-color: var(--gray-0);
+  --dark-text-color: var(--gray-12);
+
+  --max-content-width: 768px;
 }
 
 body {
   font-family: 'Inter Variable', var(--font-sans);
   background-color: var(--background-color);
-  color: var(--text-color);
+  color: var(--light-text-color);
+  min-height: 100vh;
+  overflow-y: scroll;
 }
 
 a {
