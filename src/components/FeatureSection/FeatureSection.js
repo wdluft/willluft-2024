@@ -11,7 +11,7 @@ function FeatureSection() {
         <h3>
           Information & Business Technology | Leathercrafter | Cantor
           | Soccer & Volleyball Player | Dad | Long Islander | Chelsea
-          FC & NY Islanders & Green Bay Packers Fan
+          FC & NY Islanders & Green Bay Packers Fan | Runner
         </h3>
       </section>
     </main>
