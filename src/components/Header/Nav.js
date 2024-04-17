@@ -5,16 +5,16 @@ import NavLink from './NavLink';
 function Nav() {
   return (
     <NavBar>
-      <NavLink url='#' isCurrentPage={true}>
+      <NavLink url='/' isCurrentPage={true}>
         home
       </NavLink>
-      <NavLink url='#' isCurrentPage={false}>
+      <NavLink url='/about' isCurrentPage={false}>
         about
       </NavLink>
-      <NavLink url='#' isCurrentPage={false}>
+      <NavLink url='/leather' isCurrentPage={false}>
         leather
       </NavLink>
-      <NavLink url='#' isCurrentPage={false}>
+      <NavLink url='/work' isCurrentPage={false}>
         work
       </NavLink>
     </NavBar>

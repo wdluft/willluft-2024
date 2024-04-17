@@ -10,6 +10,8 @@ import App from './components/App';
 import ErrorPage from './routes/error-page';
 import Root from './routes/root';
 import About from './routes/about';
+import Leather from './routes/leather';
+import Work from './routes/work';
 
 const router = createBrowserRouter([
   {
@@ -24,6 +26,14 @@ const router = createBrowserRouter([
       {
         path: '/about',
         element: <About />,
+      },
+      {
+        path: '/leather',
+        element: <Leather />,
+      },
+      {
+        path: '/work',
+        element: <Work />,
       },
     ],
   },

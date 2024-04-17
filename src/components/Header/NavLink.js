@@ -1,23 +1,28 @@
 import React from 'react';
 import styled from 'styled-components';
+import { Outlet, Link, NavLink as RRNavLink } from 'react-router-dom';
 
-// TO-DO: SET CURRENT-PAGE CLASS TO ACTIVE ROUTE
 function NavLink({ url, isCurrentPage, children }) {
   return (
-    <Link href={url} className={isCurrentPage ? `current-page` : ``}>
+    <StyledLink
+      to={url}
+      className={({ isActive, isPending }) =>
+        isActive ? 'active' : isPending ? 'pending' : ''
+      }
+    >
       {children}
-    </Link>
+    </StyledLink>
   );
 }
 
-const Link = styled.a`
+const StyledLink = styled(RRNavLink)`
   color: var(--primary-color);
   font-weight: var(--font-weight-4);
   font-size: var(--font-size-2);
   text-decoration: none;
   transition: color 300ms var(--ease-in-out-1);
 
-  &.current-page {
+  &.active {
     text-decoration: underline;
     text-decoration-thickness: var(--size-1);
   }
