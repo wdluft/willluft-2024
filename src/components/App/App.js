@@ -5,7 +5,6 @@ import FeatureSection from '../FeatureSection';
 function App() {
   return (
     <>
-      <Header />
       <FeatureSection />
     </>
   );
