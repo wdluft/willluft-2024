@@ -25,7 +25,7 @@ const NavBar = styled.nav`
   width: 100%;
   display: flex;
   gap: var(--size-5);
-  padding: var(--size-3) var(--size-2);
+  padding: var(--size-3);
 `;
 
 export default Nav;
