@@ -1,10 +1,10 @@
 import React from 'react';
-import styles from './FeatureSection.module.css';
 import SocialLinks from './SocialLinks';
+import styled from 'styled-components';
 
 function FeatureSection() {
   return (
-    <main className={styles.wrapper}>
+    <MainWrapper>
       <h1> Will Luft</h1>
       <SocialLinks />
       <section>
@@ -14,8 +14,28 @@ function FeatureSection() {
           FC & NY Islanders & Green Bay Packers Fan | Runner
         </h3>
       </section>
-    </main>
+    </MainWrapper>
   );
 }
+
+const MainWrapper = styled.main`
+  max-width: var(--max-content-width);
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--primary-color);
+  color: var(--dark-text-color);
+  transform: rotate(-2deg);
+  padding: var(--size-7);
+  margin-top: var(--size-8);
+
+  h1 {
+    font-size: var(--font-size-8);
+    font-style: italic;
+  }
+
+  h3 {
+    font-size: var(--font-size-4);
+  }
+`;
 
 export default FeatureSection;
