@@ -28,7 +28,7 @@ function Leathercraft() {
 const MainWrapper = styled.main`
   padding-left: var(--size-3);
   padding-right: var(--size-3);
-  padding-bottom: var(--size-3);
+  padding-bottom: var(--size-8);
   max-width: var(--max-content-width);
 `;
 

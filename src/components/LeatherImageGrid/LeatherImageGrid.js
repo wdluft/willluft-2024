@@ -19,12 +19,22 @@ function LeatherImageGrid() {
 }
 
 const GridWrapper = styled.section`
+  padding-top: var(--size-5);
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: var(--size-3);
 
   img {
-    /* max-width: 200px; */
+    border: var(--size-2) var(--primary-color) solid;
+    box-shadow: var(--inner-shadow-4);
+    transition: transform 250ms var(--ease-1);
+
+    @media (hover: hover) and (pointer: fine) {
+      &:hover {
+        transition: transform 150ms var(--ease-1);
+        transform: scale(1.25);
+      }
+    }
   }
 `;
 
