@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { LEATHER_PHOTOS } from '../../leatherPhotos';
+import { LEATHER_PHOTOS } from '../../data';
 
 function LeatherImageGrid() {
   return (
