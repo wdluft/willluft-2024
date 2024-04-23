@@ -1,5 +1,5 @@
 import React from 'react';
-import useSWR from 'swr';
+import Leathercraft from '../components/Leathercraft';
 
 // instagram id: 54912543863
 // IF pulling from instagram, use url below
@@ -8,10 +8,7 @@ import useSWR from 'swr';
 function Leather() {
   return (
     <>
-      <h1>This is the Leather page!</h1>
-      <main>
-        <img src='https://www.instagram.com/p/C1xZpGAuTPo/?img_index=1?size=1' />
-      </main>
+      <Leathercraft />
     </>
   );
 }
