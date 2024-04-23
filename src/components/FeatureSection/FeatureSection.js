@@ -28,6 +28,10 @@ const MainWrapper = styled.main`
   padding: var(--size-7);
   margin-top: var(--size-8);
 
+  @media screen and (max-width: 768px) {
+    transform: rotate(0deg);
+  }
+
   h1 {
     font-size: var(--font-size-8);
     font-style: italic;
