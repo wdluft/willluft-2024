@@ -5,7 +5,21 @@ import LeatherImageGrid from '../LeatherImageGrid/LeatherImageGrid';
 function Leathercraft() {
   return (
     <MainWrapper>
-      <p>This is my leather stuff</p>
+      <p>
+        In 2021, I picked up a kit to make my wife a leather bag as an
+        anniversary gift. I caught the leathercrafting bug, and now I
+        make different items out of leather. I primarily work with
+        vegetable tanned leather made from cowhide.
+      </p>
+      <p>
+        Below are some pictures of some of the things I've made for
+        myself, friends, family, and as comissions. If you're
+        interested in a custom piece, please send me a DM on{' '}
+        <a href='https://www.instagram.com/willmadeleather/'>
+          Instagram.
+        </a>
+      </p>
+
       <LeatherImageGrid />
     </MainWrapper>
   );

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Headshot from '../../../assets/headshot.png';
 import styled from 'styled-components';
 
@@ -20,9 +21,10 @@ function AboutMe() {
       <p>
         In 2021, I needed to get a gift for my wife for our
         anniversary. I made her a leather bag from a kit, enjoying the
-        process so much that I dove head first into leathercraft. I
-        love working with leather, where I make belts, card holders,
-        key chains, valet trays, and more.
+        process so much that I dove head first into{' '}
+        <Link to='/leather'>leathercraft</Link>. I love working with
+        leather, where I make belts, card holders, key chains, valet
+        trays, and more.
       </p>
       <p>
         I enjoy playing and watching sports - getting out and playing

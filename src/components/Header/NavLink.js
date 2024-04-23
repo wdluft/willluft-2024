@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Outlet, Link, NavLink as RRNavLink } from 'react-router-dom';
+import { NavLink as RRNavLink } from 'react-router-dom';
 
 function NavLink({ url, isCurrentPage, children }) {
   return (
