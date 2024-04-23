@@ -31,10 +31,11 @@ const router = createBrowserRouter([
         path: '/leather',
         element: <Leather />,
       },
-      {
-        path: '/work',
-        element: <Work />,
-      },
+      // TODO: Add a "Work" route that includes resume/job information
+      // {
+      //   path: '/work',
+      //   element: <Work />,
+      // },
     ],
   },
 ]);

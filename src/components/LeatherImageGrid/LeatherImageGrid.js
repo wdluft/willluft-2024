@@ -29,6 +29,11 @@ const GridWrapper = styled.section`
     box-shadow: var(--inner-shadow-4);
     transition: transform 250ms var(--ease-1);
 
+    @media screen and (max-width: 768px) {
+      border: var(--size-1) var(--primary-color) solid;
+    }
+
+    /* HOVER ANIMATION */
     @media (hover: hover) and (pointer: fine) {
       &:hover {
         transition: transform 150ms var(--ease-1);

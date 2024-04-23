@@ -14,9 +14,9 @@ function Nav() {
       <NavLink url='/leather' isCurrentPage={false}>
         leather
       </NavLink>
-      <NavLink url='/work' isCurrentPage={false}>
+      {/* <NavLink url='/work' isCurrentPage={false}>
         work
-      </NavLink>
+      </NavLink> */}
     </NavBar>
   );
 }
