@@ -5,6 +5,7 @@ import LeatherImageGrid from '../LeatherImageGrid/LeatherImageGrid';
 function Leathercraft() {
   return (
     <MainWrapper>
+      <h1>Leathercraft</h1>
       <p>
         In 2021, I picked up a kit to make my wife a leather bag as an
         anniversary gift. I caught the leathercrafting bug, and now I
@@ -26,8 +27,8 @@ function Leathercraft() {
 }
 
 const MainWrapper = styled.main`
-  padding-left: var(--size-3);
-  padding-right: var(--size-3);
+  padding-left: var(--padding-left);
+  padding-right: var(--padding-left);
   padding-bottom: var(--size-8);
   max-width: var(--max-content-width);
 `;

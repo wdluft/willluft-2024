@@ -37,8 +37,8 @@ function AboutMe() {
 }
 
 const MainWrapper = styled.main`
-  padding-left: var(--size-3);
-  padding-right: var(--size-3);
+  padding-left: var(--padding-left);
+  padding-right: var(--padding-left);
   padding-bottom: var(--size-3);
   max-width: var(--max-content-width);
 

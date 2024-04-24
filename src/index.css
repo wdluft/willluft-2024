@@ -92,6 +92,7 @@ h6 {
   --dark-text-color: var(--gray-12);
 
   --max-content-width: 768px;
+  --padding-left: var(--size-8);
 }
 
 body {
