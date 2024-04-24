@@ -25,7 +25,11 @@ const NavBar = styled.nav`
   width: 100%;
   display: flex;
   gap: var(--size-5);
-  padding: var(--size-3);
+  padding: var(--size-3) var(--size-8);
+
+  @media screen and (max-width: 768px) {
+    justify-content: center;
+  }
 `;
 
 export default Nav;

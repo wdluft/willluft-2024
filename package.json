@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/wdluft/willluft/issues"
   },
-  "homepage": "https://wdluft.github.io/willluft-2024",
+  "homepage": "https://github.com/wdluft/willluft-2024",
   "dependencies": {
     "@fontsource-variable/inter": "^5.0.17",
     "open-props": "^1.6.21",
