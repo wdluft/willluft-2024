@@ -25,7 +25,7 @@ const MainWrapper = styled.main`
   background-color: var(--primary-color);
   color: var(--dark-text-color);
   transform: rotate(-2deg);
-  padding: var(--size-7);
+  padding: var(--size-8);
   margin-top: var(--size-8);
 
   @media screen and (max-width: 768px) {
