@@ -6,11 +6,13 @@ import styled from 'styled-components';
 function AboutMe() {
   return (
     <MainWrapper>
-      <img
-        src={Headshot}
-        alt='Headshot of Will Luft, a bearded man with a blurred background of a bookshelf'
-        className='headshot'
-      />
+      <ImageWrapper>
+        <img
+          src={Headshot}
+          alt='Headshot of Will Luft, a bearded man with a blurred background of a bookshelf'
+          className='headshot'
+        />
+      </ImageWrapper>
       <h1>About Will</h1>
       <p>
         I work for{' '}
@@ -46,6 +48,11 @@ const MainWrapper = styled.main`
     max-width: 250px;
     padding-bottom: var(--size-3);
   }
+`;
+
+const ImageWrapper = styled.div`
+  width: 250px;
+  height: 250px;
 `;
 
 export default AboutMe;
