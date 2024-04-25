@@ -24,6 +24,10 @@ const GridWrapper = styled.section`
   grid-template-columns: repeat(3, 1fr);
   gap: var(--size-3);
 
+  @media screen and (max-width: 768px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
   img {
     border: var(--size-2) var(--primary-color) solid;
     box-shadow: var(--inner-shadow-4);
