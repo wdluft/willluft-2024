@@ -19,7 +19,7 @@ function SocialLinks() {
         </a>
       </li>
       <li>
-        <a>
+        <a href='https://www.linkedin.com/in/william-luft-42ab9258/'>
           <Linkedin />
           <VisuallyHidden>LinkedIn</VisuallyHidden>
         </a>
